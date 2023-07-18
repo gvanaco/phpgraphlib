@@ -6,15 +6,19 @@ PHPGraphLib has powerful customization features, allowing you to generate the pe
 
 ### History
 
-The first version PHPGraphLib was written in 2007 by Elliott Brueggeman to deliver PHP generated graphs quickly and easily to PHP4 applications. It has grown in both features and maturity since its inception. PHPGraphLib now requires PHP5+. Originally available only for paid commercial use, PHPGraphLib was open-sourced in 2013 under the MIT License. Please visit [http://www.ebrueggeman.com/phpgraphlib](http://www.ebrueggeman.com/phpgraphlib) for more information.
+The first version PHPGraphLib was written in 2007 by Elliott Brueggeman to deliver PHP generated graphs quickly and easily to PHP4 applications. It has grown in both features and maturity since its inception. PHPGraphLib now requires PHP5+. Originally available only for paid commercial use, PHPGraphLib was open-sourced in 2013 under the MIT License.
+Please visit [http://www.ebrueggeman.com/phpgraphlib](http://www.ebrueggeman.com/phpgraphlib) for more information.
+
+!!! Update needed to work again with PHP 8.0 2023/07
 
 ### Documentation
 
-Documentation is available at [http://www.ebrueggeman.com/phpgraphlib](http://www.ebrueggeman.com/phpgraphlib)
+No additional info available.  Website closed.
 
-<a href="http://www.ebrueggeman.com/phpgraphlib">http://www.ebrueggeman.com/phpgraphlib</a>. I'll begin porting over documentation soon where it makes sense.
 
 ### Examples
+
+The working examples aren't available anymore.  Due to a closed website.
 
 Within the [Examples](/examples) directory are examples of PHPGraphLib usage. Git clone this repo to a directory on your localhost or server to see these examples in action.
 
