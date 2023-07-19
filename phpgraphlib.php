@@ -736,11 +736,11 @@ class PHPGraphLib {
 		}
 	}
 
-	protected function imagelinedashed(&$image_handle, $x_axis_x1, $yLocation, $x_axis_x2 , $yLocation, $color) 
+	protected function imagelinedashed(&$image_handle, $x_axis_x1, $xLocation, $x_axis_x2 , $yLocation, $color) 
 	{
 		$step  = 3;
 		for ($i = $x_axis_x1; $i < $x_axis_x2 -1; $i += ($step*2)) {
-			imageline($this->image, $i, $yLocation,  $i + $step - 1, $yLocation, $color);
+			imageline($this->image, $i, $xLocation,  $i + $step - 1, $yLocation, $color);
 		}
 	}
 
@@ -1182,9 +1182,9 @@ class PHPGraphLib {
         {
             switch (strtolower($currency_type)) {
                 case 'dollar': $this->data_currency = '$'; break;
-                case 'yen': $this->data_currency = '¥'; break;
-                case 'pound': $this->data_currency = '£'; break;
-                case 'lira': $this->data_currency = '£'; break;
+                case 'yen': $this->data_currency = 'Â¥'; break;
+                case 'pound': $this->data_currency = 'Â£'; break;
+                case 'lira': $this->data_currency = 'Â£'; break;
                 // Euro doesn't display properly
                 // Franc doesn't display properly
                 default: $this->data_currency = $currency_type; break;
@@ -1265,7 +1265,7 @@ class PHPGraphLib {
 
 	protected function formatDataAsDegrees($input)
 	{
-		return $input . '°';
+		return $input . 'Â°';
 	}
 
 	protected function formatDataAsGeneric($input)
